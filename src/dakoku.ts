@@ -1,33 +1,11 @@
 import { Builder, By, Key, until } from "selenium-webdriver";
-import { kingoftimeConfig } from "../env";
 import { getDaysInMonth, startOfMonth, add, getDay } from "date-fns";
+import { kingoftimeConfig } from "../env";
+import { endTime } from "./endtime";
 
 const sleep = (second: number) => {
   return new Promise((resolve) => setTimeout(resolve, second * 1000));
 };
-
-const endTime = [
-  "1800",
-  "1810",
-  "1815",
-  "1820",
-  "1825",
-  "1830",
-  "1840",
-  "1845",
-  "1850",
-  "1900",
-  "1910",
-  "1915",
-  "1920",
-  "1930",
-  "1935",
-  "1940",
-  "1945",
-  "2000",
-  "2020",
-  "2100",
-];
 
 const dakoku = async () => {
   const today = new Date();
@@ -84,7 +62,7 @@ const dakoku = async () => {
     console.log("エラーだよ");
     console.log(e);
   } finally {
-    // driver.quit();
+    driver.quit();
     console.log("終わり");
   }
 };

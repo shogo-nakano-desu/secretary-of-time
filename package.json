@@ -5,6 +5,9 @@
   "repository": "https://github.com/shogo-nakano-desu/secretary-of-time.git",
   "author": "shogo-nakano-desu <61229807+shogo-nakano-desu@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/dakoku"
+  },
   "dependencies": {
     "chromedriver": "^93.0.1",
     "date-fns": "^2.24.0",
