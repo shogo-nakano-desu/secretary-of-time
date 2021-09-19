@@ -1,0 +1,20 @@
+{
+  "name": "secretary-of-time",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shogo-nakano-desu/secretary-of-time.git",
+  "author": "shogo-nakano-desu <61229807+shogo-nakano-desu@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^93.0.1",
+    "date-fns": "^2.24.0",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.0.0-rc-1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.3",
+    "@types/selenium-webdriver": "^4.0.15",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
