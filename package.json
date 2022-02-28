@@ -6,10 +6,10 @@
   "author": "shogo-nakano-desu <61229807+shogo-nakano-desu@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/dakoku"
+    "start": "yarn upgrade chromedriver selenium selenium-webdriver --latest && ts-node src/dakoku"
   },
   "dependencies": {
-    "chromedriver": "^93.0.1",
+    "chromedriver": "^98.0.1",
     "date-fns": "^2.24.0",
     "selenium": "^2.20.0",
     "selenium-webdriver": "^4.0.0-rc-1"
